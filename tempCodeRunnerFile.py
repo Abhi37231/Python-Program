@@ -1,0 +1,2 @@
+fruits.clear()
+# print(fruits)
