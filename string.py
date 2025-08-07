@@ -11,7 +11,7 @@ print(str[8])
 print(str[9])
 
 
-
+  
 print("print first name using positive indexing:")
 print(str[0:9])
 
@@ -28,7 +28,7 @@ print(len(str))
 print("The function of strings")
 print(str.find("Y"))
 print(str.count("a"))
-print(str.replace("Abhinandan","atharv"))
+print(str.replace("Abhinandan","Atharv"))
 print(str.split())
 print(str.upper())   
 print(str.lower())  
