@@ -1,21 +1,38 @@
-import array as arr  
+#append
 
-a = arr.array('i', [1, 2, 3])
+fruits = ['apple', 'banana', 'cherry']
+fruits.append("orange")
+print(fruits)
 
-print("The new created array is:", end=" ")
+#copy
+x = fruits.copy()
+print(x)
 
-for i in range(0, 3):
-    print(a[i], end=" ")  
+#count
+y = fruits.count("cherry")
+print(y)
 
+#extend()
+cars = ['Ford', 'BMW', 'Volvo']
+fruits.extend(cars)
+print(fruits)
 
-a.append(5)
-print(a)
+#index()
+z = fruits.index("cherry")
+print(z)
 
-a.count(1)
-print(a.count(1))
+#insert()
+fruits.insert(1, "orange")
+print(fruits)
 
-print(a.extend())
+#reverse()
+fruits.reverse()
+print(fruits)
 
-print(a.clear())
+#sort()
+cars.sort()
+print(cars)
 
-
+#clear()
+fruits.clear()
+print(fruits)
