@@ -1,14 +1,13 @@
-# Lists to store student names and grades
+
 students = []
 grades = []
 
-# Add a new student and grade
 def add_student(name, grade):
     students.append(name)
     grades.append(grade)
     print(f"{name} added with grade {grade}.")
 
-# Update a student's grade
+
 def update_grade(name, new_grade):
     if name in students:
         index = students.index(name)
@@ -17,7 +16,7 @@ def update_grade(name, new_grade):
     else:
         print(f"{name} not found.")
 
-# Remove a student
+
 def remove_student(name):
     if name in students:
         index = students.index(name)
@@ -27,7 +26,6 @@ def remove_student(name):
     else:
         print(f"{name} not found.")
 
-# Display average grade
 def display_average():
     if grades:
         avg = sum(grades) / len(grades)
@@ -35,7 +33,6 @@ def display_average():
     else:
         print("No grades to calculate average.")
 
-# Display highest and lowest grade
 def display_highest_lowest():
     if grades:
         max_grade = max(grades)
@@ -45,7 +42,6 @@ def display_highest_lowest():
     else:
         print("No grades to analyze.")
 
-# Menu to test functionality
 while True:
     print("\n1. Add Student\n2. Update Grade\n3. Remove Student\n4. Display Average\n5. Display Highest & Lowest\n6. Exit")
     choice = input("Enter your choice (1-6): ")
