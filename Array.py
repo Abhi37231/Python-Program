@@ -36,3 +36,4 @@ print(cars)
 #clear()
 fruits.clear()
 print(fruits)
+
