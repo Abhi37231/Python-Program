@@ -17,3 +17,4 @@ class Car:
 # creating object
 obj = Car()
 obj.display("Range-Rover", "M360", "White")
+
